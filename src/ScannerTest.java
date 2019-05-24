@@ -8,6 +8,9 @@ public class ScannerTest {
 		Scanner sc = new Scanner(System.in);
 		int input = sc.nextInt();
 		System.out.println("The num entered is " + input);
+		System.out.println("Enter your name");
+		String name = sc.next();
+		System.out.println("name is " + name);
 
 	}
 
